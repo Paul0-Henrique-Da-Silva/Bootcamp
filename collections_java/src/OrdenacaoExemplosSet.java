@@ -37,7 +37,7 @@ public class OrdenacaoExemplosSet {
         for(Series serie: minhaSeries3) {
             System.out.println(serie.getNome() + " - " + serie.getGenero() + " - " + serie.getDuracao());
         }
-        
+
     }
 }
 
