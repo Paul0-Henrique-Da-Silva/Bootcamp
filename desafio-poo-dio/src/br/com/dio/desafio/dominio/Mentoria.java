@@ -7,6 +7,13 @@ public class Mentoria {
     private String descricao;
     private LocalDate data;
 
+
+    public Mentoria(String titulo_, String descricao_, LocalDate data_) {
+        this.titulo = titulo_;
+        this.descricao = descricao_;
+        this.data = data_;
+    }
+
     public void setTitulo(String titulo_) {
         this.titulo = titulo_;
     }
