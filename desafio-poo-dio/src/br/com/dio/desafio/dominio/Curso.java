@@ -5,6 +5,12 @@ public class Curso {
     private String descricao;
     private int cargaHoraria;
 
+    public Curso(String titulo_, String descricao_, int cargaHoraria_) {
+        this.titulo = titulo_;
+        this.descricao = descricao_;
+        this.cargaHoraria = cargaHoraria_;
+    }
+
     public void setTitulo(String titulo_) {
         this.titulo = titulo_;
     }
