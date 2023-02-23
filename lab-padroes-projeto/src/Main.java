@@ -1,3 +1,4 @@
+import one.digital.facade.Facade;
 import one.digital.singleton.SingletonEager;
 import one.digital.singleton.SingletonLazy;
 import one.digital.singleton.SingletonLazyHolder;
@@ -36,6 +37,8 @@ public class Main {
         robo.mover();
         System.out.println("\t");
 
-
+        System.out.println("Facade");
+        Facade facade = new Facade();
+        facade.MigrarCliente("Paulo", "06719-025");
     }
 }
